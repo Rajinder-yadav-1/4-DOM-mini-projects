@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: rgb(8, 115, 165);
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+height: 500px;
+background-color: #fff;
+width: 350px;
+border: 2px solid #000000;
+border-radius: 5px;
+overflow: hidden;
+}
+
+.storyian{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid #dadada;
+    padding: 15px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    
+}
+
+.storyian::-webkit-scrollbar{
+    display: none;
+}
+
+.story{
+    height: 90px;
+    width: 90px;
+    background: linear-gradient(orange,pink,red,yellow,purple,cyan,rgb(4, 77, 77),rgb(13, 168, 83));
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+border-radius: 50%;
+
+}

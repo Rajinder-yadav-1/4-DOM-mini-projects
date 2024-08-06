@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Gilroy-Light.ttf') format('truetype'); /* You can specify the format */
+}
+
+body {
+    background: #6494ED;
+    font-family: 'CustomFont', sans-serif; /* Apply the custom font first, with a fallback */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    top: 300px;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    left: 0;
+
+}
+
+.card h1{
+text-align: center;
+margin-top: 10px;
+}
+
+.card h2{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(180, 16, 57);
+}
+
+
+.card button{
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+
